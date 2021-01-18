@@ -13,6 +13,11 @@ struct ContentView: View {
             .padding()
     }
 }
+struct CdontentView: View {
+    var body: some View {
+        Text("Hellvvo, world!")
+            }
+}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
