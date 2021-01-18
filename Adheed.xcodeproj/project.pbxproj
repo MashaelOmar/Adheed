@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D383C1625B62442003324C4 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D383C1525B62442003324C4 /* Tests_iOS.swift */; };
+		0D383C2125B62442003324C4 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D383C2025B62442003324C4 /* Tests_macOS.swift */; };
+		0D383C2325B62442003324C4 /* AdheedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D383BFA25B62441003324C4 /* AdheedApp.swift */; };
+		0D383C2425B62442003324C4 /* AdheedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D383BFA25B62441003324C4 /* AdheedApp.swift */; };
+		0D383C2525B62442003324C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D383BFB25B62441003324C4 /* ContentView.swift */; };
+		0D383C2625B62442003324C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D383BFB25B62441003324C4 /* ContentView.swift */; };
+		0D383C2725B62442003324C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D383BFC25B62441003324C4 /* Assets.xcassets */; };
+		0D383C2825B62442003324C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D383BFC25B62441003324C4 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D383C1225B62442003324C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D383BF525B62441003324C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D383C0025B62441003324C4;
+			remoteInfo = "Adheed (iOS)";
+		};
+		0D383C1D25B62442003324C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D383BF525B62441003324C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D383C0825B62441003324C4;
+			remoteInfo = "Adheed (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D383BFA25B62441003324C4 /* AdheedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdheedApp.swift; sourceTree = "<group>"; };
+		0D383BFB25B62441003324C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0D383BFC25B62441003324C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D383C0125B62441003324C4 /* Adheed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adheed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D383C0425B62441003324C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D383C0925B62441003324C4 /* Adheed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adheed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D383C0B25B62441003324C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D383C0C25B62441003324C4 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		0D383C1125B62442003324C4 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D383C1525B62442003324C4 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		0D383C1725B62442003324C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D383C1C25B62442003324C4 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D383C2025B62442003324C4 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		0D383C2225B62442003324C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D383BFE25B62441003324C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D383C0625B62441003324C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D383C0E25B62442003324C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D383C1925B62442003324C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D383BF425B62441003324C4 = {
+			isa = PBXGroup;
+			children = (
+				0D383BF925B62441003324C4 /* Shared */,
+				0D383C0325B62441003324C4 /* iOS */,
+				0D383C0A25B62441003324C4 /* macOS */,
+				0D383C1425B62442003324C4 /* Tests iOS */,
+				0D383C1F25B62442003324C4 /* Tests macOS */,
+				0D383C0225B62441003324C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D383BF925B62441003324C4 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				0D383BFA25B62441003324C4 /* AdheedApp.swift */,
+				0D383BFB25B62441003324C4 /* ContentView.swift */,
+				0D383BFC25B62441003324C4 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		0D383C0225B62441003324C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D383C0125B62441003324C4 /* Adheed.app */,
+				0D383C0925B62441003324C4 /* Adheed.app */,
+				0D383C1125B62442003324C4 /* Tests iOS.xctest */,
+				0D383C1C25B62442003324C4 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D383C0325B62441003324C4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0D383C0425B62441003324C4 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		0D383C0A25B62441003324C4 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				0D383C0B25B62441003324C4 /* Info.plist */,
+				0D383C0C25B62441003324C4 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		0D383C1425B62442003324C4 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0D383C1525B62442003324C4 /* Tests_iOS.swift */,
+				0D383C1725B62442003324C4 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		0D383C1F25B62442003324C4 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				0D383C2025B62442003324C4 /* Tests_macOS.swift */,
+				0D383C2225B62442003324C4 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D383C0025B62441003324C4 /* Adheed (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D383C2B25B62442003324C4 /* Build configuration list for PBXNativeTarget "Adheed (iOS)" */;
+			buildPhases = (
+				0D383BFD25B62441003324C4 /* Sources */,
+				0D383BFE25B62441003324C4 /* Frameworks */,
+				0D383BFF25B62441003324C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Adheed (iOS)";
+			productName = "Adheed (iOS)";
+			productReference = 0D383C0125B62441003324C4 /* Adheed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D383C0825B62441003324C4 /* Adheed (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D383C2E25B62442003324C4 /* Build configuration list for PBXNativeTarget "Adheed (macOS)" */;
+			buildPhases = (
+				0D383C0525B62441003324C4 /* Sources */,
+				0D383C0625B62441003324C4 /* Frameworks */,
+				0D383C0725B62441003324C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Adheed (macOS)";
+			productName = "Adheed (macOS)";
+			productReference = 0D383C0925B62441003324C4 /* Adheed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D383C1025B62442003324C4 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D383C3125B62442003324C4 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				0D383C0D25B62442003324C4 /* Sources */,
+				0D383C0E25B62442003324C4 /* Frameworks */,
+				0D383C0F25B62442003324C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D383C1325B62442003324C4 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 0D383C1125B62442003324C4 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		0D383C1B25B62442003324C4 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D383C3425B62442003324C4 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				0D383C1825B62442003324C4 /* Sources */,
+				0D383C1925B62442003324C4 /* Frameworks */,
+				0D383C1A25B62442003324C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D383C1E25B62442003324C4 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 0D383C1C25B62442003324C4 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D383BF525B62441003324C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					0D383C0025B62441003324C4 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					0D383C0825B62441003324C4 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					0D383C1025B62442003324C4 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 0D383C0025B62441003324C4;
+					};
+					0D383C1B25B62442003324C4 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 0D383C0825B62441003324C4;
+					};
+				};
+			};
+			buildConfigurationList = 0D383BF825B62441003324C4 /* Build configuration list for PBXProject "Adheed" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D383BF425B62441003324C4;
+			productRefGroup = 0D383C0225B62441003324C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D383C0025B62441003324C4 /* Adheed (iOS) */,
+				0D383C0825B62441003324C4 /* Adheed (macOS) */,
+				0D383C1025B62442003324C4 /* Tests iOS */,
+				0D383C1B25B62442003324C4 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D383BFF25B62441003324C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D383C2725B62442003324C4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D383C0725B62441003324C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D383C2825B62442003324C4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D383C0F25B62442003324C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D383C1A25B62442003324C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D383BFD25B62441003324C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D383C2525B62442003324C4 /* ContentView.swift in Sources */,
+				0D383C2325B62442003324C4 /* AdheedApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D383C0525B62441003324C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D383C2625B62442003324C4 /* ContentView.swift in Sources */,
+				0D383C2425B62442003324C4 /* AdheedApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D383C0D25B62442003324C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D383C1625B62442003324C4 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D383C1825B62442003324C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D383C2125B62442003324C4 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D383C1325B62442003324C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D383C0025B62441003324C4 /* Adheed (iOS) */;
+			targetProxy = 0D383C1225B62442003324C4 /* PBXContainerItemProxy */;
+		};
+		0D383C1E25B62442003324C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D383C0825B62441003324C4 /* Adheed (macOS) */;
+			targetProxy = 0D383C1D25B62442003324C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D383C2925B62442003324C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D383C2A25B62442003324C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0D383C2C25B62442003324C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 723XGSBJXL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GP2.Adheed;
+				PRODUCT_NAME = Adheed;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D383C2D25B62442003324C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 723XGSBJXL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GP2.Adheed;
+				PRODUCT_NAME = Adheed;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D383C2F25B62442003324C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 723XGSBJXL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GP2.Adheed;
+				PRODUCT_NAME = Adheed;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0D383C3025B62442003324C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 723XGSBJXL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GP2.Adheed;
+				PRODUCT_NAME = Adheed;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0D383C3225B62442003324C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 723XGSBJXL;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GP2.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Adheed (iOS)";
+			};
+			name = Debug;
+		};
+		0D383C3325B62442003324C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 723XGSBJXL;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GP2.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Adheed (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D383C3525B62442003324C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 723XGSBJXL;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "GP2.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Adheed (macOS)";
+			};
+			name = Debug;
+		};
+		0D383C3625B62442003324C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 723XGSBJXL;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "GP2.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Adheed (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D383BF825B62441003324C4 /* Build configuration list for PBXProject "Adheed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D383C2925B62442003324C4 /* Debug */,
+				0D383C2A25B62442003324C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D383C2B25B62442003324C4 /* Build configuration list for PBXNativeTarget "Adheed (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D383C2C25B62442003324C4 /* Debug */,
+				0D383C2D25B62442003324C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D383C2E25B62442003324C4 /* Build configuration list for PBXNativeTarget "Adheed (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D383C2F25B62442003324C4 /* Debug */,
+				0D383C3025B62442003324C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D383C3125B62442003324C4 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D383C3225B62442003324C4 /* Debug */,
+				0D383C3325B62442003324C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D383C3425B62442003324C4 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D383C3525B62442003324C4 /* Debug */,
+				0D383C3625B62442003324C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D383BF525B62441003324C4 /* Project object */;
+}
