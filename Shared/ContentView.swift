@@ -1,4 +1,4 @@
-//
+ //
 //  ContentView.swift
 //  Shared
 //
@@ -24,5 +24,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+//this is njoud notes??????
 //this is njoud notes
-// this is raya
